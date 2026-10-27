@@ -4,7 +4,7 @@ The complete Astro/TypeScript portfolio is implemented locally with six homepage
 
 ## Content and privacy
 
-Experience and technology claims were checked against the resume text supplied in the conversation. The resume and extracted private text were never saved to this repository. Employer names, exact assignment dates, locations, and private contact details are excluded. Public contact fields remain unset; supplying a resume did not constitute approval to publish its contact details. No client screenshots, measured results, or public demo URLs are claimed.
+Experience and technology claims were checked against the resume text supplied in the conversation. The resume and extracted private text were never saved to this repository. Employer names, exact assignment dates, locations, and unapproved contact details are excluded. Email, LinkedIn, and phone were subsequently approved explicitly and added to the contact section. GitHub remains unset. No client screenshots, measured results, or public demo URLs are claimed.
 
 Update profile, project, skill, and approved contact data in `src/data/profile.ts`. Update homepage narrative in `src/pages/index.astro`, detail-page layout in `src/pages/work/[slug].astro`, shared behavior in `src/layouts/Layout.astro`, and design in `src/styles/global.css`.
 
