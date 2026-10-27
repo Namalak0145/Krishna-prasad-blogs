@@ -5,11 +5,10 @@ export const projects = [
 {slug:'secure-workflows',number:'03',industry:'Healthcare',title:'Secure Transaction and Claims Applications',summary:'Supporting sensitive workflows with deliberate access and data handling.',challenge:'Transaction and claims applications need consistent data access, clear reporting, and access appropriate to each user’s role.',contribution:'My work included ASP.NET, Angular, SQL Server, Entity Framework, transactional workflows, reporting, role-based access, query optimization, logging, testing, and deployment.',solution:'Application interfaces guide users through transactions while server-side services coordinate business operations and database access. Reporting presents workflow information without exposing records in this portfolio.',consideration:'Role-based authorization, transaction boundaries, query review, automated testing, and diagnostic logging are central engineering concerns.',outcome:'This work supported transactional applications and reporting through application development, database work, testing, and delivery.',tech:['ASP.NET','Angular','SQL Server','Entity Framework','Role-based access','Testing']}
 ];
 export const skills = [
-['Backend','C# · .NET · ASP.NET Core · Web API · REST · WCF · Dependency injection · Entity Framework · LINQ','Explicit contracts and testable service boundaries.','enterprise-services'],
-['Frontend','Angular · TypeScript · RxJS · HTML · CSS · JavaScript · React','Responsive interfaces that make complex workflows manageable.','cloud-operations'],
-['Cloud & integration','Azure Functions · App Service · API Management · Service Bus · Kafka · RabbitMQ · Docker · Kubernetes','Connected applications, asynchronous work, and cloud delivery.','enterprise-services'],
-['Data','SQL Server · Cosmos DB · MongoDB · PostgreSQL · Stored procedures · Query optimization','Data access designed around the application’s needs.','secure-workflows'],
-['Delivery & quality','Azure DevOps · CI/CD · Git · xUnit · Postman · Application Insights · Observability','Repeatable delivery with testing and production diagnostics.','enterprise-services'],
-['AI-assisted development','GitHub Copilot · Claude Code','Human review, testing, and validation remain part of the process.','']
+['Backend','C# · .NET · ASP.NET Core · Web API · Entity Framework','Explicit contracts and testable service boundaries.','enterprise-services'],
+['Frontend','Angular · TypeScript · RxJS · React','Responsive interfaces for complex application workflows.','cloud-operations'],
+['Cloud & DevOps','Azure · Azure DevOps · Docker · Kubernetes · CI/CD','Cloud delivery with repeatable builds and controlled releases.','enterprise-services'],
+['Data','SQL Server · Cosmos DB · MongoDB · PostgreSQL','Deliberate data access across relational and document stores.','secure-workflows'],
+['Messaging & Integration','Kafka · RabbitMQ · Azure Service Bus · REST · WCF','Clear contracts connect services and asynchronous work.','enterprise-services'],
+['Testing & Tools','xUnit · Postman · Application Insights · Git · GitHub Copilot · Claude Code','Testing and diagnostics, with human review of AI-assisted work.','enterprise-services']
 ];
-

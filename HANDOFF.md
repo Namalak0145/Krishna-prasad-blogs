@@ -45,3 +45,15 @@ npm run preview
 ```
 
 For a root-path build, remove `BASE_PATH` first. GitHub Actions sets its repository variables automatically, and both configuration and build verification derive the correct user-site or project-site base path.
+
+## Motion and technology refinement
+
+The homepage now uses a single accessible name heading with decorative letter spans. A 26px drop, 32ms stagger, and 580ms easing coordinate with small upward hero fades; the complete sequence finishes in about 1.2 seconds. The existing skills presentation is replaced by six connected technology groups with thin lines, node markers, and slow decorative signals. Mobile styles arrange the same content vertically. No animation dependency was added.
+
+All new motion follows the effects toggle. Reduced-motion and coarse-pointer rules suppress the entrances and signals; continuous technology signals pause offscreen and when the document is hidden. The cursor remains non-interactive and is hidden until a supported pointer moves.
+
+Verification for this refinement: Astro checks passed with zero diagnostics; root and project-prefix builds passed; four static pages and 51 links/assets passed for each base. Desktop production screenshots and the accessibility tree were inspected: the name is one heading, all six groups are present once, and Skills navigation works. Changed source and public history were reviewed for excluded employer identifiers. Approved public contact details remain configured.
+
+Browser-extension operations repeatedly timed out. Native desktop inspection was possible, but responsive screenshots, real-time animation capture, reduced-motion emulation, touch interaction, and the effects toggle could not be fully re-tested for this revision. Their implementation was reviewed in code; these are verification limits rather than claimed browser passes.
+
+Deployment remains blocked: the configured Git credential has no repository write permission. Authenticate Git using an account with write access, then commit and push the refinement to `main`; the existing Pages workflow is preserved.
